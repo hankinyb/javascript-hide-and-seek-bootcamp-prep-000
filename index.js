@@ -1,6 +1,6 @@
 function getFirstSelector(selector) {
-  return querySelector(selector)
+ const a = document.querySelector(selector)
   
-  
+  return a 
 }
 
