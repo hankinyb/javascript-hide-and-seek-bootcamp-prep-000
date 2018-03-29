@@ -5,5 +5,7 @@ function getFirstSelector(selector) {
 }
 
 function nestTarget() {
+  const b = document.getElementById('app').querySelector('#nested.target')
   
+  return b
 }
