@@ -15,3 +15,10 @@ function deepestChild() {
   
   return c 
 }
+
+function increaseRankBy(n) {
+  const d = document.getElementById('app').querySelectorAll('ul.ranked-list li')
+  for (let i = 0; i < d.length; i++) {
+    d[i].innerHTML = (li += n).toString()
+  }
+}
