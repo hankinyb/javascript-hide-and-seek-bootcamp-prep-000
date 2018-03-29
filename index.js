@@ -1,5 +1,5 @@
 function getFirstSelector(selector) {
-  querySelector(selector)
+  return querySelector(selector)
   
   
 }
