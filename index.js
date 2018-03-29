@@ -4,3 +4,6 @@ function getFirstSelector(selector) {
   return a 
 }
 
+function nestTarget() {
+  
+}
