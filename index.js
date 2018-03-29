@@ -5,7 +5,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  const b = document.getElementById('app').querySelector('nested.target')
+  const b = document.getElementById('nested').querySelector('.target')
   
   return b
 }
