@@ -10,4 +10,6 @@ function nestedTarget() {
   return b
 }
 
-function deppestChild()
+function deepestChild() {
+  const c = document.getElementById('grand-node')
+}
